@@ -1,0 +1,16 @@
+/* Setting margin: 0 and padding: 0 for all elements ensures that 
+no element has any default margin or padding. This is often used 
+as a reset to remove browser-specific default styles, providing a 
+clean slate for consistent styling across all browsers.*/
+
+*{
+  margin: 0;    
+  padding: 0;
+}
+
+body{
+  height: 100vh;          /*This means the body will always take up the full vertical height of the browser window, regardless of the content inside it.*/
+  background: #161513;  /*This sets the background color of the <body> element to a dark shade */
+  color: white;         /*This sets the text color within the <body> to white*/
+  font-family: 'outfit';
+}
